@@ -1,3 +1,6 @@
+# Getting Start
+Type: npm install
+
 # MapBox Tutorial
 
 Link: https://www.youtube.com/watch?v=JJatzkPcmoI
