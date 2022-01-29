@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Button } from 'antd';
 import iphone from '../../assets/iphone.png';
+import { app_name } from '../../variables.js';
 
 import './style.scss';
 
@@ -10,7 +11,7 @@ const HomePage = () => {
     <div className="home-page">
       <img src={iphone} alt="iphone" className="iphone" />
       <div className="homenav">
-        <h2>Bing Bong</h2>
+        <h2>{app_name}</h2>
         <div className="links">
           <NavLink to="/map">
             <h4>Map</h4>
@@ -30,14 +31,14 @@ const HomePage = () => {
         <h1>Community</h1>
         <h1>through events</h1>
         <p>
-          Bing Bong is a social platform to keep what your friends are up to
+           {app_name} is a social platform to keep what your friends are up to
         </p>
         <div className="buttons">
           <NavLink to="/Map">
-            <Button type='primary' className="play1" size="big">Start now ></Button>
+            <Button type='primary' className="play1" size="big">Start now</Button>
           </NavLink>
           <NavLink to="/Map">
-            <Button  className="play" size="big">Demo now ></Button>
+            <Button  className="play" size="big">Demo now</Button>
           </NavLink>
         </div>
       </div>
