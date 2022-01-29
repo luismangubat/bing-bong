@@ -9,6 +9,7 @@ import './style.scss';
 const HomePage = () => {
   return (
     <div className="home-page">
+      <p>My Token = {window.token}</p>
       <img src={iphone} alt="iphone" className="iphone" />
       <div className="homenav">
         <h2>{app_name}</h2>
