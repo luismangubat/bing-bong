@@ -1,0 +1,50 @@
+.nav-bar {
+  background-color: rgba(255, 255, 255, 0.0);
+  display: flex;
+  height: 10vh;
+  position: fixed;
+  width: 100vw;
+  z-index: 2;
+  justify-content: space-between;
+  align-items: center;
+  
+  h2 {
+    font-size: 2.3rem;
+    padding: 10px 30px;
+    height: 100%;
+    margin-bottom: 0;
+    color:  white;
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    div {
+      font-size: 1.15rem;
+      padding: 20px 30px;
+      font-weight: 400;
+      cursor: pointer;
+      color: white;
+    }
+  }
+
+  .scan {
+    margin: 20px 40px;
+    background: linear-gradient(90deg, #407eb1 0%, rgba(89, 185, 249, 0.9) 100%);
+    width: 145px;
+    padding: 5px 0px;
+    color: white;
+    font-weight: 600;
+    border-radius: 18%/100%;
+    text-align: center;
+    cursor: pointer;
+    transition: .2s;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
